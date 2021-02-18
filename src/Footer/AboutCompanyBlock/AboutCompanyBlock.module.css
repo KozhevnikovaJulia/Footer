@@ -1,0 +1,15 @@
+.aboutCompanyBlock {
+    background-color: #010916;
+    min-width: 25%;
+    text-align: left;
+}
+
+@media screen and (max-width: 770px){
+    .aboutCompanyBlock {
+        width: 100%;
+    }}
+  
+
+
+ 
+  

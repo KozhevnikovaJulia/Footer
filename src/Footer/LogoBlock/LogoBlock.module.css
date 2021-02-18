@@ -1,0 +1,45 @@
+.logoBlock {
+    background-color: #010916;
+    min-width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.phoneNumberBlock {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.phoneNumberBlock a{
+   font-size: 24px;
+}
+
+.phoneNumberBlock a::after {
+    bottom: 5px;
+  }
+  .phoneNumber {
+      padding-bottom: -5px;
+  }
+
+  .iconsBlock {
+      width: 200px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .icon {
+      border: white 1px solid;
+      width: 30px;
+      height: 30px;
+  }
+  @media screen and (max-width: 770px){
+    .logoBlock{
+        width: 100%;
+        align-items:flex-start;  
+    }}
+
+    @media screen and (max-width: 990px){
+        .logoBlock {
+            min-width: 50%;
+            align-items:flex-start; 
+        }}

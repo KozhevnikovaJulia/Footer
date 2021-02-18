@@ -1,0 +1,14 @@
+.pagesBlock {
+    background-color:#010916;
+    min-width: 50%;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+
+@media screen and (max-width: 770px){
+    .pagesBlock {
+        width: 100%;
+    }}
+  

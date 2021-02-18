@@ -1,0 +1,19 @@
+.footerContainer {
+    background-color:#010916;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    background-color: #010916;
+    color:white;
+    display: flex;
+    width: 100%;  
+    padding-bottom: 3rem!important;
+    padding-top: 3rem!important;    
+}
+ @media screen and (max-width: 1052px){
+        .footer {
+            flex-wrap: wrap; 
+        }}
+
